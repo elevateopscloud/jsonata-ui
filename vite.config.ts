@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
 export default defineConfig({
+  base: './',
   plugins: [react(), tailwindcss(), tsconfigPaths()],
   server: {
     port: 3000,
