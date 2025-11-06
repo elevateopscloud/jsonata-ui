@@ -79,7 +79,7 @@ Y un input como:
 ```
 
 ### Notas sobre JSONata
-- Documentación oficial: `https://docs.jsonata.org`
+- Documentación oficial: https://docs.jsonata.org
 - Soporta funciones y lambdas (`(p1, p2) => expr`), funciones built-in (`$string()`, `$number()`, `$map()`, etc.).
 - En este proyecto, el contexto opcional se inyecta como `$ctx` durante la evaluación.
 
